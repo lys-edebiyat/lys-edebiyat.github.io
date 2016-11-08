@@ -2,7 +2,7 @@ body{
 	background-color: #fae8d2;
 }
 
-#soru{
+#question{
 	width: 50vw;
 	height: 35vh;
 	display: block;
@@ -17,7 +17,7 @@ body{
 	vertical-align: middle; 
 }
 
-.cevap {
+.answer {
 	width: 50vw;
 	height: 8vh;
 	margin-top: 2vh;
@@ -30,7 +30,7 @@ body{
 	cursor: pointer;
 }
 
-.cevap:hover{
+.answer:hover{
 	transition: all 0.1s ease;
 	-o-transition: all 0.1s ease;
     -ms-transition: all 0.1s ease;
@@ -40,7 +40,7 @@ body{
 	box-shadow: 0 10px 20px rgba(0,0,0,0.30), 0 15px 21px rgba(0,0,0,0.22);
 }
 
-.cevap:active{
+.answer:active{
 	transition: all 0.1s ease;
 	-o-transition: all 0.1s ease;
     -ms-transition: all 0.1s ease;
@@ -50,24 +50,55 @@ body{
 	box-shadow: 0 4px 10px rgba(0,0,0,0.30), 0 4px 4px rgba(0,0,0,0.22);
 }
 
-#cevap_0 {
-	margin-top: 10vh;
+
+.skor{
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2.5vh;
+	color: #636467;
+	padding: 0 5vw 0 5vw;
 }
+
+.sweetAlertModal {
+	font-family: 'Josefin Sans', sans-serif !important;
+	color: #636467 !important;
+}
+
+.sweetAlertModal h2{
+	font-size: 5.5vh !important;
+	font-family: 'Josefin Sans', sans-serif !important;
+	color: #636467 !important;	
+}
+
+.sweetAlertModal p{
+	font-size: 3.5vh !important;
+	font-family: 'Josefin Sans', sans-serif !important;
+	color: #636467 !important;	
+}
+
+.sweet-alert,
+.sa-fix,
+.sweet-alert .sa-icon.sa-success::before, 
+.sweet-alert .sa-icon.sa-success::after {
+	background-color: #f3f3f3 !important;
+}
+
+
 
 @media only screen and (max-width: 500px) {
 
-	#soru { 
+	#question { 
 		width: 75vw;
 		font-size: 6.5vh; 
 		margin-top: 8vh;
 	}
 
-	.cevap {
+	.answer {
 		width: 75vw;
 		height: 8vh;
 	}
 
-	.cevap:active{
+	.answer:active{
 		transition: all 0.1s ease;
 		-o-transition: all 0.1s ease;
 	    -ms-transition: all 0.1s ease;
@@ -77,23 +108,27 @@ body{
 		box-shadow: 0 4px 10px rgba(0,0,0,0.30), 0 4px 4px rgba(0,0,0,0.22);
 	}
 
+	.skor{
+		margin-top: 3vh;
+	}
+
 
 }
 
 
 @media only screen and (min-width: 1200px) {
-	#soru { 
+	#question { 
 		width: 30vw;
 		font-size: 6.5vh; 
 		margin-top: 8vh;
 	}
 
-	.cevap {
+	.answer {
 		width: 30vw;
 		height: 8vh;
 	}
 
-	.cevap:hover{
+	.answer:hover{
 		transition: all 0.1s ease;
 		-o-transition: all 0.1s ease;
 	    -ms-transition: all 0.1s ease;
@@ -103,7 +138,7 @@ body{
 		box-shadow: 0 10px 20px rgba(0,0,0,0.30), 0 15px 21px rgba(0,0,0,0.22);
 	}
 
-	.cevap:active{
+	.answer:active{
 		transition: all 0.1s ease;
 		-o-transition: all 0.1s ease;
 	    -ms-transition: all 0.1s ease;
