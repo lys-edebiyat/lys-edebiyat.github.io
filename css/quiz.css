@@ -1,0 +1,118 @@
+body{
+	background-color: #fae8d2;
+}
+
+#soru{
+	width: 50vw;
+	height: 35vh;
+	display: block;
+	margin-top: 5vh;
+	background-color: #f85f73;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 4.5vh;
+	color: #fae8d2;
+	text-align: center;
+	word-wrap: break-word;
+	vertical-align: middle; 
+}
+
+.cevap {
+	width: 50vw;
+	height: 8vh;
+	margin-top: 2vh;
+	background-color: #283b63;	
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	line-height: 8vh;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 4.5vh;
+	color: #fae8d2;
+	cursor: pointer;
+}
+
+.cevap:hover{
+	transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+	
+	box-shadow: 0 10px 20px rgba(0,0,0,0.30), 0 15px 21px rgba(0,0,0,0.22);
+}
+
+.cevap:active{
+	transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+	width: 49vw;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.30), 0 4px 4px rgba(0,0,0,0.22);
+}
+
+#cevap_0 {
+	margin-top: 10vh;
+}
+
+@media only screen and (max-width: 500px) {
+
+	#soru { 
+		width: 75vw;
+		font-size: 6.5vh; 
+		margin-top: 8vh;
+	}
+
+	.cevap {
+		width: 75vw;
+		height: 8vh;
+	}
+
+	.cevap:active{
+		transition: all 0.1s ease;
+		-o-transition: all 0.1s ease;
+	    -ms-transition: all 0.1s ease;
+	    -moz-transition: all 0.1s ease;
+	    -webkit-transition: all 0.1s ease;
+		width: 74vw;
+		box-shadow: 0 4px 10px rgba(0,0,0,0.30), 0 4px 4px rgba(0,0,0,0.22);
+	}
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+	#soru { 
+		width: 30vw;
+		font-size: 6.5vh; 
+		margin-top: 8vh;
+	}
+
+	.cevap {
+		width: 30vw;
+		height: 8vh;
+	}
+
+	.cevap:hover{
+		transition: all 0.1s ease;
+		-o-transition: all 0.1s ease;
+	    -ms-transition: all 0.1s ease;
+	    -moz-transition: all 0.1s ease;
+	    -webkit-transition: all 0.1s ease;
+	
+		box-shadow: 0 10px 20px rgba(0,0,0,0.30), 0 15px 21px rgba(0,0,0,0.22);
+	}
+
+	.cevap:active{
+		transition: all 0.1s ease;
+		-o-transition: all 0.1s ease;
+	    -ms-transition: all 0.1s ease;
+	    -moz-transition: all 0.1s ease;
+	    -webkit-transition: all 0.1s ease;
+		width: 29.5vw;
+		box-shadow: 0 4px 10px rgba(0,0,0,0.30), 0 4px 4px rgba(0,0,0,0.22);
+	}
+
+
+}
+

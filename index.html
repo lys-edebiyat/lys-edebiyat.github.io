@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>LYS Edebiyat Oyunu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/wing.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+      integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+      crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    <div class="center">
+      <div  class="row" id="soru">
+        <div class="col-12 horizontal-align center">
+          <p id="kitap_adi">--</p>
+        </div>
+      </div>
+    </div>
+    <div class="center">
+      <div class="row cevap horizontal-align" id="cevap_0" onclick="CheckAndCreateNewQuestion(0)">
+        --
+      </div>
+    </div>
+    <div class="center">
+      <div class="row cevap horizontal-align" id="cevap_1" onclick="CheckAndCreateNewQuestion(1)">
+        --
+      </div>
+    </div><div class="center">
+      <div class="row cevap horizontal-align" id="cevap_2" onclick="CheckAndCreateNewQuestion(2)">
+        --
+      </div>
+    </div>
+    <div id="hidden-resizer" style="visibility: hidden"></div>
+  </body>
+  <script type="text/javascript" language="javascript" src="js/yazar-kitap.json"></script>
+  <script type="text/javascript" language="javascript" src="js/quiz.js"></script> 
+</html>
+
