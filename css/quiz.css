@@ -2,6 +2,38 @@ body{
 	background-color: #fae8d2;
 }
 
+body,
+h6 {
+    line-height: 1.6
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto 1.5em;
+    width: 80%
+}
+.row {
+    margin-top: 2.0833%;
+    padding: 0 1.04165%
+}
+.row:after {
+    display: table;
+    clear: both;
+    content: ''
+}
+.horizontal-align {
+    display: flex;
+    justify-content: center
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
 #question{
 	width: 50vw;
 	height: 35vh;
