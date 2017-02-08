@@ -28,7 +28,8 @@ html {
     display: flex;
     justify-content: center
 }
-.center {
+.center > div,
+centered-block {
     display: flex;
     align-items: center;
     justify-content: center
@@ -82,7 +83,6 @@ html {
 	box-shadow: 0 4px 10px rgba(0,0,0,0.30), 0 4px 4px rgba(0,0,0,0.22);
 }
 
-
 .skor{
 	display: inline-block;
 	font-family: 'Josefin Sans', sans-serif;
@@ -116,6 +116,25 @@ html {
 }
 
 
+.bottom-exp {
+	font-family: 'Josefin Sans', sans-serif;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+}
+
+.bottom-exp a{
+	text-decoration: none;
+	color: #283b63;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
 
 @media only screen and (max-width: 500px) {
 
@@ -131,22 +150,19 @@ html {
 	}
 
 	.answer:active{
-		transition: all 0.1s ease;
-		-o-transition: all 0.1s ease;
-	    -ms-transition: all 0.1s ease;
-	    -moz-transition: all 0.1s ease;
-	    -webkit-transition: all 0.1s ease;
 		width: 74vw;
-		box-shadow: 0 4px 10px rgba(0,0,0,0.30), 0 4px 4px rgba(0,0,0,0.22);
 	}
 
 	.skor{
 		margin-top: 3vh;
 	}
 
+	.butonlar {
+		width: 54vw;
+		margin-top: 3vh;
+	}
 
 }
-
 
 @media only screen and (min-width: 1200px) {
 	#question { 
@@ -160,26 +176,8 @@ html {
 		height: 8vh;
 	}
 
-	.answer:hover{
-		transition: all 0.1s ease;
-		-o-transition: all 0.1s ease;
-	    -ms-transition: all 0.1s ease;
-	    -moz-transition: all 0.1s ease;
-	    -webkit-transition: all 0.1s ease;
-	
-		box-shadow: 0 10px 20px rgba(0,0,0,0.30), 0 15px 21px rgba(0,0,0,0.22);
-	}
-
 	.answer:active{
-		transition: all 0.1s ease;
-		-o-transition: all 0.1s ease;
-	    -ms-transition: all 0.1s ease;
-	    -moz-transition: all 0.1s ease;
-	    -webkit-transition: all 0.1s ease;
 		width: 29.5vw;
-		box-shadow: 0 4px 10px rgba(0,0,0,0.30), 0 4px 4px rgba(0,0,0,0.22);
 	}
-
 
 }
-

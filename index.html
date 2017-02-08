@@ -4,16 +4,17 @@
     <meta charset="utf-8">
     <title>LYS Edebiyat Yazar Kitap Soru - Cevap Oyunu | LYS Edebiyat Yazar - Kitap Quiz</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="dist/app.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="css/sweetalert.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300&subset=latin-ext" rel="stylesheet">    
   </head>
   <body>
-    <div class="container">
+    <div class="container center">
       
       <!-- Book Name -->
-      <div class="center">
+      <div>
         <div  class="row" id="question">
-          <div class="center">
+          <div class="centered-block">
             <p id="book_name">--</p>
           </div>
         </div>
@@ -21,7 +22,7 @@
       <!-- Book Name Close -->
 
       <!-- Scoreboard -->
-      <div class="center">
+      <div>
           <div class="row text-center">
               <div class="skor pull-left"><strong>Doğru: <span id="correctAnswers">0</span></strong></div>
               <div class="skor pull-right"><strong>Yanlış: <span id="wrongAnswers">0</span></strong></div>
@@ -30,26 +31,46 @@
       <!-- Scoreboard Close-->
 
       <!-- Answers -->
-      <div class="center">
+      <div>
         <div class="row answer horizontal-align" id="button_0" onclick="CheckAndCreateNewQuestion(0)">
           --
         </div>
       </div>
-      <div class="center">
+      <div>
         <div class="row answer horizontal-align" id="button_1" onclick="CheckAndCreateNewQuestion(1)">
           --
         </div>
       </div>
-      <div class="center">
+      <div>
         <div class="row answer horizontal-align" id="button_2" onclick="CheckAndCreateNewQuestion(2)">
           --
         </div>
       </div>
       <!-- Answers Close-->
 
+      <div>
+          <div class="row text-center butonlar">
+                <a target="_blank" href='https://play.google.com/store/apps/details?id=io.cordova.lysedebiyat&utm_source=website&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                  <img alt="Google Play'den alın" src='img/playstore.png' height="60" />
+                </a>
+              <a target="_blank" href='https://itunes.apple.com/tr/app/lys-edebiyat-yazar-kitap-bilgi/id1174623916?l=tr&mt=8'>  
+                <img src="img/appstore.svg" height="60" />
+              </a>
+              
+          </div>
+      </div>
+
+      <div>
+        <div class="row bottom-exp">
+          Bu proje <a target="_blank" href="http://github.com/lys-edebiyat"><b>GitHub</b></a> üzerinde açık kaynak olarak 
+          geliştirilmektedir. Projeye dair tüm mobil uygulamalar ücretsizdir.
+        </div>
+      </div>
+
     </div>
     <!-- Container Close-->
   </body>
-  <script type="text/javascript" language="javascript" src="dist/app.js"></script> 
+  <script type="text/javascript" language="javascript" src="js/sweetalert.min.js"></script> 
+  <script type="text/javascript" language="javascript" src="js/quiz.js"></script> 
 </html>
 

@@ -1,6 +1,6 @@
 # LYS Edebiyat Yazar - Kitap Quiz Web App
 
-Bu uygulama, halihazırda varolan, yazar-kitap ikililerine ait bir veri setinin görselleştirilip oyun haline getirilmiş halidir. Tüm veri seti Javascript aracılığıyla yüklenmekte, parse edilmekte ve oyun içerisinde kullanıma açılış esnasına hazır edilmiş olmaktadır. Asıl amacı üniversiteye hazırlanan öğrencilerin LYS sınavı için edebiyat çalışmalarını pratik ve eğlenceli bir hale getirmek olan bu proje, JavaScript tabanlı bir web uygulaması ve bir iOS uygulamasına sahiptir. iOS uygulamasına [bu linkten](http://google.com/) veya AppStore üzerinden "LYS Edebiyat" şeklinde arama yaparak ulaşabilirsiniz. Web uygulamasına is [buraya tıklayarak](https://karakanb.github.io/lys-edebiyat/) ulaşabilirsiniz.
+Bu uygulama, halihazırda varolan, yazar-kitap ikililerine ait bir veri setinin görselleştirilip oyun haline getirilmiş halidir. Tüm veri seti Javascript aracılığıyla yüklenmekte, parse edilmekte ve oyun içerisinde kullanıma açılış esnasına hazır edilmiş olmaktadır. Asıl amacı üniversiteye hazırlanan öğrencilerin LYS sınavı için edebiyat çalışmalarını pratik ve eğlenceli bir hale getirmek olan bu proje, JavaScript tabanlı bir web uygulaması ve bir iOS uygulamasına sahiptir. iOS uygulamasına [bu linkten](http://google.com/) veya AppStore üzerinden "LYS Edebiyat" şeklinde arama yaparak ulaşabilirsiniz. Web uygulamasına is [buraya tıklayarak](https://lys-edebiyat.github.io/) ulaşabilirsiniz.
 
 ![alt text](http://i64.tinypic.com/qq7a6t.jpg "LYS Edebiyat App Logo")
 
